@@ -47,8 +47,8 @@ let usercard = document.getElementById("usercard");
 //создаём параграф(тег <p> </p>)
 let p = document.createElevent("p");
 //добавляем в него текст
-p.innerText = `${tg.initDataUnsafe.first_name}
-${tg.initDataUnsafe.last_name}`
+p.innerText = `${tg.initDataUnsafe.user.first_name}
+${tg.initDataUnsafe.user.last_name}`
 
 //добавляем текст в сам блок usercard
 usercard.appendChild(p);
