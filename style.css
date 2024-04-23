@@ -12,7 +12,7 @@ body{
 .inner{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 200px 200px 200px;
+    grid-template-rows: 210px 210px 210px 210px;
 }
 .img{
     width: 130px;   
@@ -20,7 +20,11 @@ body{
 .item{  
     text-align: center;
 }
-
+.item p{  
+    font-family: 'Arial';
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
 .btn{
     display: inline-block;
     padding: 10px 20px;
